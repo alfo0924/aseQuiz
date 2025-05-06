@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日月光常見考題測驗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>日月光常見考題測驗</h1>
+        <div id="score-container" class="hidden">
+            <div class="score-box">
+                <h2>測驗結果</h2>
+                <p>您的分數: <span id="final-score">0</span> / 10</p>
+                <div id="score-analysis"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="quiz-container">
+            <form id="quiz-form">
+                <div class="questions-container">
+                    <!-- 題目會由JS動態生成 -->
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" id="submit-btn">送出答案</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
